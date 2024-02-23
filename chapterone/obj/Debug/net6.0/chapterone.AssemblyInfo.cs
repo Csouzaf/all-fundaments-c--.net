@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("c#methods")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("chapterone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("c#methods")]
-[assembly: System.Reflection.AssemblyTitleAttribute("c#methods")]
+[assembly: System.Reflection.AssemblyProductAttribute("chapterone")]
+[assembly: System.Reflection.AssemblyTitleAttribute("chapterone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

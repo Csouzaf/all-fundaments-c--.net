@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\Programação\\c#methods\\c#methods.csproj": {}
+    "D:\\OneDrive\\Programação\\c#methods\\chapterone\\chapterone.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\Programação\\c#methods\\c#methods.csproj": {
+    "D:\\OneDrive\\Programação\\c#methods\\chapterone\\chapterone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\Programação\\c#methods\\c#methods.csproj",
-        "projectName": "c#methods",
-        "projectPath": "D:\\OneDrive\\Programação\\c#methods\\c#methods.csproj",
+        "projectUniqueName": "D:\\OneDrive\\Programação\\c#methods\\chapterone\\chapterone.csproj",
+        "projectName": "chapterone",
+        "projectPath": "D:\\OneDrive\\Programação\\c#methods\\chapterone\\chapterone.csproj",
         "packagesPath": "C:\\Users\\csouz\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\Programação\\c#methods\\obj\\",
+        "outputPath": "D:\\OneDrive\\Programação\\c#methods\\chapterone\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csouz\\AppData\\Roaming\\NuGet\\NuGet.Config"

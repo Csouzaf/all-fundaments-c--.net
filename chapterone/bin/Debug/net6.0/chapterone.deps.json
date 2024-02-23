@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "c#methods/1.0.0": {
+      "chapterone/1.0.0": {
         "runtime": {
-          "c#methods.dll": {}
+          "chapterone.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "c#methods/1.0.0": {
+    "chapterone/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
