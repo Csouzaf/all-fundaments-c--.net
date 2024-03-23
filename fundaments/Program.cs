@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Runtime.CompilerServices;
+using System.Text;
 
 Console.WriteLine("Hello, World!");
 
@@ -120,3 +121,108 @@ Console.WriteLine("Verifica de forma sensitiva se: s1={0} ,s2={1}, se s1 é igua
 Console.WriteLine("Verifica a igualdade ignorando a forma sensitiva e não pode ser usado para comparar palavras com caracteres especiais como ö.. porém dá mais performace : s1 é igual a s2: {0}", s1.Equals(s2, StringComparison.OrdinalIgnoreCase));
 Console.WriteLine("Verifica a igualdade ignorando a forma sensitiva e pode ser usado para comparar palavras com caracteres especiais como ö...: s1.Equals(s2, StringComparison.InvariantCultureIgnoreCase): {0}", s1.Equals(s2, StringComparison.InvariantCultureIgnoreCase));
 Console.WriteLine();
+
+//Introdução ao LINQ
+int[] numbers = { 10, 20, 30, 40, 1, 2, 3, 8 };
+
+Console.WriteLine("Verifica a partir de uma variável (a) se o array numbers onde a < 10 então select o 'a'");
+var queryLinq = from a in numbers where a < 10 select a;
+
+foreach(var a in queryLinq)
+{
+    Console.WriteLine(a);
+}
+
+//Verificar se um objeto é int ou string
+Console.WriteLine();
+Console.WriteLine("Verifica se o objeto é um inteiro ou string");
+
+object inteiro1 = 123;
+object string1 = "String sou";
+bool booleano = true;
+
+if(inteiro1 is string myString1){
+    Console.WriteLine($"{myString1} is a string");
+}
+
+if (inteiro1 is int myInt1)
+{
+    Console.WriteLine($"{myInt1} is an int");
+}
+
+if (string1 is string myString2)
+{
+    Console.WriteLine($"{myString2} is a string");
+}
+
+if(inteiro1 is not string)
+{
+    Console.WriteLine($"{inteiro1} is not a string");
+}
+
+if(booleano)
+{
+    Console.WriteLine($"Se o {booleano} for true então aparece aqui");
+    Console.WriteLine($"{booleano} is true");
+}
+
+if(!booleano)
+{
+    Console.WriteLine($"O operador ! é usado para negar um booleano. Se o {booleano} for true, então cai aqui");
+    Console.WriteLine($"{booleano} is false");
+}
+
+Console.Write("Enter your favorite day of the week: ");
+DayOfWeek favDay;
+try
+{
+    favDay = (DayOfWeek) Enum.Parse(typeof(DayOfWeek), Console.ReadLine());
+}
+catch (Exception)
+{
+    Console.WriteLine("Bad input!");
+    return;
+}
+
+switch (favDay)
+{
+    case DayOfWeek.Sunday:
+    Console.WriteLine("Football!!");
+    break;
+    case DayOfWeek.Monday:
+    Console.WriteLine("Another day, another dollar");
+    break;
+    case DayOfWeek.Tuesday:
+    Console.WriteLine("At least it is not Monday");
+    break;
+    case DayOfWeek.Wednesday:
+    Console.WriteLine("A fine day.");
+    break;
+    case DayOfWeek.Thursday:
+    Console.WriteLine("Almost Friday...");
+    break;
+    case DayOfWeek.Friday:
+    Console.WriteLine("Yes, Friday rules!");
+    break;
+    case DayOfWeek.Saturday:
+    Console.WriteLine("Great day indeed.");
+    break;
+}
+Console.WriteLine();
+
+var foo = 5;
+switch (foo)
+{
+    case 1:
+    //do something
+    goto case 2;
+    case 2:
+    //do something else
+    break;
+    case 3:
+    //yet another action
+    goto default;
+    default:
+    //default action
+    break;
+}

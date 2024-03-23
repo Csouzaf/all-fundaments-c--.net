@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "chapterone/1.0.0": {
+      "chapterfour/1.0.0": {
         "runtime": {
-          "chapterone.dll": {}
+          "chapterfour.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "chapterone/1.0.0": {
+    "chapterfour/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
