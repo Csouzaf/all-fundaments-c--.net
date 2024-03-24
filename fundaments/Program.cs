@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Runtime.CompilerServices;
 using System.Text;
+using fundaments;
 
 Console.WriteLine("Hello, World!");
 
@@ -172,42 +173,42 @@ if(!booleano)
     Console.WriteLine($"{booleano} is false");
 }
 
-Console.Write("Enter your favorite day of the week: ");
-DayOfWeek favDay;
-try
-{
-    favDay = (DayOfWeek) Enum.Parse(typeof(DayOfWeek), Console.ReadLine());
-}
-catch (Exception)
-{
-    Console.WriteLine("Bad input!");
-    return;
-}
+// Console.Write("Enter your favorite day of the week: ");
+// DayOfWeek favDay;
+// try
+// {
+//     favDay = (DayOfWeek) Enum.Parse(typeof(DayOfWeek), Console.ReadLine());
+// }
+// catch (Exception)
+// {
+//     Console.WriteLine("Bad input!");
+//     return;
+// }
 
-switch (favDay)
-{
-    case DayOfWeek.Sunday:
-    Console.WriteLine("Football!!");
-    break;
-    case DayOfWeek.Monday:
-    Console.WriteLine("Another day, another dollar");
-    break;
-    case DayOfWeek.Tuesday:
-    Console.WriteLine("At least it is not Monday");
-    break;
-    case DayOfWeek.Wednesday:
-    Console.WriteLine("A fine day.");
-    break;
-    case DayOfWeek.Thursday:
-    Console.WriteLine("Almost Friday...");
-    break;
-    case DayOfWeek.Friday:
-    Console.WriteLine("Yes, Friday rules!");
-    break;
-    case DayOfWeek.Saturday:
-    Console.WriteLine("Great day indeed.");
-    break;
-}
+// switch (favDay)
+// {
+//     case DayOfWeek.Sunday:
+//     Console.WriteLine("Football!!");
+//     break;
+//     case DayOfWeek.Monday:
+//     Console.WriteLine("Another day, another dollar");
+//     break;
+//     case DayOfWeek.Tuesday:
+//     Console.WriteLine("At least it is not Monday");
+//     break;
+//     case DayOfWeek.Wednesday:
+//     Console.WriteLine("A fine day.");
+//     break;
+//     case DayOfWeek.Thursday:
+//     Console.WriteLine("Almost Friday...");
+//     break;
+//     case DayOfWeek.Friday:
+//     Console.WriteLine("Yes, Friday rules!");
+//     break;
+//     case DayOfWeek.Saturday:
+//     Console.WriteLine("Great day indeed.");
+//     break;
+// }
 Console.WriteLine();
 
 var foo = 5;
@@ -226,3 +227,9 @@ switch (foo)
     //default action
     break;
 }
+Console.WriteLine();
+Console.WriteLine("----Capítulo 4---");
+Console.WriteLine();
+
+Chapterfour chapterfour = new Chapterfour();
+chapterfour.capituloQuatro();
