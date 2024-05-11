@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\Programação\\c#methods\\chapterfour\\chapterfour.csproj": {}
+    "D:\\OneDrive\\Programação\\c#methods\\book-pro-c#10-dotnet-6\\c#methods.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\Programação\\c#methods\\chapterfour\\chapterfour.csproj": {
+    "D:\\OneDrive\\Programação\\c#methods\\book-pro-c#10-dotnet-6\\c#methods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\Programação\\c#methods\\chapterfour\\chapterfour.csproj",
-        "projectName": "chapterfour",
-        "projectPath": "D:\\OneDrive\\Programação\\c#methods\\chapterfour\\chapterfour.csproj",
+        "projectUniqueName": "D:\\OneDrive\\Programação\\c#methods\\book-pro-c#10-dotnet-6\\c#methods.csproj",
+        "projectName": "c#methods",
+        "projectPath": "D:\\OneDrive\\Programação\\c#methods\\book-pro-c#10-dotnet-6\\c#methods.csproj",
         "packagesPath": "C:\\Users\\csouz\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\Programação\\c#methods\\chapterfour\\obj\\",
+        "outputPath": "D:\\OneDrive\\Programação\\c#methods\\book-pro-c#10-dotnet-6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csouz\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.421\\RuntimeIdentifierGraph.json"
         }
       }
     }
